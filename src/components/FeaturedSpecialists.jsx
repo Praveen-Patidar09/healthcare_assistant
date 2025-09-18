@@ -1,10 +1,13 @@
 import React from 'react';
-
+import neuro from '../assets/neuro.jpg';
+import cardio from '../assets/cardio.jpg';
+import derm from '../assets/dermo.jpeg';
+import pedia from '../assets/pedr.jpg';
 const specialistsData = [
-    { name: 'Dr. Evelyn Reed', specialty: 'Cardiologist', image: 'https://i.imgur.com/2s4P0R3.jpg' },
-    { name: 'Dr. Samuel Chen', specialty: 'Neurologist', image: 'https://i.imgur.com/G5g4g2E.jpg' },
-    { name: 'Dr. Maria Garcia', specialty: 'Dermatologist', image: 'https://i.imgur.com/J3Gqj0F.jpg' },
-    { name: 'Dr. Ben Carter', specialty: 'Pediatrician', image: 'https://i.imgur.com/y8OMw8m.jpg' },
+    { name: 'Dr. Evelyn Reed', specialty: 'Cardiologist', image: cardio },
+    { name: 'Dr. Samuel Chen', specialty: 'Neurologist', image: neuro },
+    { name: 'Dr. Maria Garcia', specialty: 'Dermatologist', image: derm },
+    { name: 'Dr. Ben Carter', specialty: 'Pediatrician', image: pedia },
 ];
 
 const SpecialistCard = ({ name, specialty, image }) => (
